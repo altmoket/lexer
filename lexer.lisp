@@ -50,7 +50,10 @@
    #:token-lexeme
    #:token-source
    #:token-class
-   #:token-value))
+   #:token-value
+   
+   ;;lexer Errors
+   #:lex-error-reason))
 
 (in-package :lexer)
 
